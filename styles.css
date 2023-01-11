@@ -16,6 +16,10 @@ body{
     color:red!important;
   }
 
+  .crlistitem:hover{
+    text-decoration: underline;
+  }
+
   .cardtb{
     display: block;
     width: 100%;
@@ -1082,6 +1086,12 @@ firstimg{
     margin-right: auto;
     margin-left: auto
 }
+.hklink:hover{
+    text-decoration: underline;
+}
+.borcol.hover{
+    border-color: red;
+}
 
 :root {
     --color-primary: #ee3425;
@@ -1113,6 +1123,9 @@ firstimg{
     padding-top: 50px;
     margin-bottom: -40px;
     font-family:  'PT Sans', sans-serif;
+}
+.sum:hover{
+    color: red!important;;
 }
 .tt{
     display: flex;
